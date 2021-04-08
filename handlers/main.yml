@@ -1,1 +1,8 @@
 ---
+- name: Restart the mpd service.
+  systemd:
+    name: mpd.service
+    state: restarted
+  tags:
+    - molecule-idempotence-notest
+  when: mpd_service

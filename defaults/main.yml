@@ -1,1 +1,7 @@
 ---
+mpd_service: true
+mpd_bind_to_address:
+mpd_port:
+mpd_zeroconf_name:
+mpd_audio_output:
+mpd_password:
